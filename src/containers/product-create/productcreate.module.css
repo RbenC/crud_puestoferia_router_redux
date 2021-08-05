@@ -1,0 +1,9 @@
+.abs_center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+form {
+	width: 450px;
+	background-color: rgb(200, 230, 200);
+}
