@@ -26,14 +26,14 @@ const ProductList = () => {
 	}
 
 	return (
-		<div className="row">
+		// <div className="mt-5 pt-2">
+		<div className="row mt-5 pt-2">
 			<div className="col">
 				<div className="card">
 					<div className="card-header">
-						<h4>Listado</h4>
-						<div className="btn-group">
-							<Link className="btn btn-outline-primary mx-3" to="/products/create">
-								+
+						<div className="d-grid mt-1">
+							<Link className="btn btn-outline-primary" type="button" to="/products/create">
+								Nuevo
 							</Link>
 						</div>
 					</div>
@@ -91,6 +91,7 @@ const ProductList = () => {
 				</div>
 			</div>
 		</div>
+		// </div>
 	)
 }
 

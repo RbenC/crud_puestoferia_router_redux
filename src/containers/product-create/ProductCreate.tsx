@@ -29,18 +29,18 @@ const ProductCreate = () => {
 	}
 
 	return (
-		<div className="container">
+		<div className="container mt-5 pt-2">
 			<div className={styles.abs_center}>
 				<div className="row">
 					<div className="col">
 						<div className="card">
 							<div className="card-header">
 								<h4>Producto Nuevo</h4>
-								<div className="btn-group">
+								{/* <div className="btn-group">
 									<Link className="btn btn-outline-primary mx-3" to="/products">
 										📖
 									</Link>
-								</div>
+								</div> */}
 							</div>
 							<form onSubmit={handlerSave} className={styles.form}>
 								<div className="card-body">
@@ -93,6 +93,9 @@ const ProductCreate = () => {
 									>
 										Guardar
 									</button>
+									<Link className="btn btn-outline-success mx-3 mt-3" to="/products" type="button">
+										Volver 📖
+									</Link>
 								</div>
 							</form>
 						</div>

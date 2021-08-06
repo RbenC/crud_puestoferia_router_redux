@@ -49,18 +49,13 @@ const ProductDetail = () => {
 	}
 
 	return productList.find((e) => e.id === parseInt(id)) ? (
-		<div className="container">
+		<div className="container mt-5 pt-2">
 			<div className={styles.abs_center}>
 				<div className="row">
 					<div className="col">
 						<div className="card">
 							<div className="card-header">
 								<h4>Actualizar Producto</h4>
-								<div className="btn-group">
-									<Link className="btn btn-outline-primary mx-3" to="/products">
-										📖
-									</Link>
-								</div>
 							</div>
 							<form onSubmit={handlerSave}>
 								<div className="card-body">
@@ -116,6 +111,9 @@ const ProductDetail = () => {
 									>
 										Guardar
 									</button>
+									<Link className="btn btn-outline-success mx-3 mt-3" to="/products" type="button">
+										Volver 📖
+									</Link>
 								</div>
 							</form>
 						</div>
