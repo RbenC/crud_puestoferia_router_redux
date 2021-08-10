@@ -15,7 +15,7 @@ const Dashboard = () => {
 							placer
 						</p>
 					</div>
-					<div className="col text-center">
+					<div className="col text-center animate__animated animate__fadeInUp">
 						<img src="../../../frutas.PNG" alt="logo" width="80%" />
 					</div>
 				</div>

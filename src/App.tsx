@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 // import UserList from './containers/user-list/UserList'
-
 import store from './store'
 import UserCreate from './containers/user-create/UserCreate'
 import ProductCreate from './containers/product-create/ProductCreate'

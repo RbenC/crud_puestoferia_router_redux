@@ -27,7 +27,7 @@ const ProductList = () => {
 
 	return (
 		// <div className="mt-5 pt-2">
-		<div className="row mt-5 pt-2">
+		<div className="row mt-5 pt-2 animate__animated  animate__fadeInDown">
 			<div className="col">
 				<div className="card">
 					<div className="card-header">
@@ -61,7 +61,12 @@ const ProductList = () => {
 												<td>${p.precio}</td>
 												<td>{p.unidad}</td>
 												<td>
-													<img src={p.imagen} alt={p.nombre} width="70px" />
+													<img
+														src={p.imagen}
+														alt={p.nombre}
+														width="70px"
+														className="animate__animated animate__flip"
+													/>
 												</td>
 												<td className="text-end">
 													<div className="btn-group">
